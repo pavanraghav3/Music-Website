@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0 12px;
+
+}
+.container{
+    min-height: 61vh;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('https://img.freepik.com/free-photo/joyful-listening-music-headphones-with-eyes-closed-caucasian-boy-s-portrait-dark-background-neon-light-concept-human-emotions-facial-expression-sales-ad-modern-tech-gadgets_155003-33756.jpg?w=1060&t=st=1701585366~exp=1701585966~hmac=d532074dd8dfb460df6e60bf0d143e275a842eea432226df292120b3b38318e2');
+
+}
+
+.bottom{
+    
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 45px;
+    margin: 0 23px;
+    
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 30px;
+}
+.songinfo{
+    position: absolute;
+    left: 9vw;
+    top: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
